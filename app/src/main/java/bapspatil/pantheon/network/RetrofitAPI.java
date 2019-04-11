@@ -16,7 +16,7 @@ import retrofit2.http.GET;
 
 public interface RetrofitAPI {
 
-    String BASE_URL = "https://raw.githubusercontent.com/bapspatil/Pantheon/master/";
+    String BASE_URL = "https://raw.githubusercontent.com/PM44/dequinox/master/";
 
     @GET("resources/team.json")
     Call<TeamResponse> getTeam();
