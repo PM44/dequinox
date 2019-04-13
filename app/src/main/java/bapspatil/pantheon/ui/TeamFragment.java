@@ -46,10 +46,12 @@ public class TeamFragment extends Fragment {
     private ArrayList<Team> techTeam = new ArrayList<>();
     private ArrayList<Team> decoTeam = new ArrayList<>();
     private ArrayList<Team> logisticsTeam = new ArrayList<>();
-    private TeamRecyclerViewAdapter techTeamAdapter, decoTeamAdapter, logisticsTeamAdapter;
+    private ArrayList<Team> artTeama = new ArrayList<>();
+    private TeamRecyclerViewAdapter techTeamAdapter, decoTeamAdapter, logisticsTeamAdapter,artTeamAdapter;
 
     @BindView(R.id.tech_team_rv) RecyclerView techTeamRecyclerView;
     @BindView(R.id.camp_team_rv) RecyclerView decoTeamRecyclerView;
+    @BindView(R.id.art_team_rv) RecyclerView artTeamRecyclerView;
     @BindView(R.id.logistics_team_rv) RecyclerView logisticsTeamRecyclerView;
     @BindView(R.id.appbar) AppBarLayout appBar;
     @BindView(R.id.collapsing_bar) CollapsingToolbarLayout collapsingToolbar;
@@ -94,14 +96,17 @@ public class TeamFragment extends Fragment {
         techTeamRecyclerView.setLayoutManager(lLM());
         decoTeamRecyclerView.setLayoutManager(lLM());
         logisticsTeamRecyclerView.setLayoutManager(lLM());
+        artTeamRecyclerView.setLayoutManager(lLM());
 
         techTeamAdapter = new TeamRecyclerViewAdapter(getContext(), techTeam);
         decoTeamAdapter = new TeamRecyclerViewAdapter(getContext(), decoTeam);
         logisticsTeamAdapter = new TeamRecyclerViewAdapter(getContext(), logisticsTeam);
+        artTeamAdapter = new TeamRecyclerViewAdapter(getContext(), artTeama);
 
         techTeamRecyclerView.setAdapter(animate(techTeamAdapter));
         decoTeamRecyclerView.setAdapter(animate(decoTeamAdapter));
         logisticsTeamRecyclerView.setAdapter(animate(logisticsTeamAdapter));
+        artTeamRecyclerView.setAdapter(animate(artTeamAdapter));
     }
 
     private void fetchTeam() {
@@ -120,6 +125,9 @@ public class TeamFragment extends Fragment {
 
                     logisticsTeam.addAll(response.body().getLogisticsTeam());
                     logisticsTeamAdapter.notifyDataSetChanged();
+
+                    artTeama.addAll(response.body().getArtTeam());
+                    artTeamAdapter.notifyDataSetChanged();
 
                     progressBar.setVisibility(View.GONE);
                     scrollView.setVisibility(View.VISIBLE);

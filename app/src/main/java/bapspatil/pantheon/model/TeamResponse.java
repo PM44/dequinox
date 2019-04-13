@@ -12,12 +12,16 @@ import java.util.ArrayList;
  */
 
 public class TeamResponse implements Parcelable {
-    @SerializedName("tech") private ArrayList<Team> techTeam;
-    @SerializedName("camp") private ArrayList<Team> campTeam;
-    @SerializedName("logi") private ArrayList<Team> logisticsTeam;
+    @SerializedName("Literary Wing") private ArrayList<Team> techTeam;
+    @SerializedName("Cultural Wing") private ArrayList<Team> campTeam;
+    @SerializedName("Media Wing") private ArrayList<Team> logisticsTeam;
+    @SerializedName("Art & Event Wing") private ArrayList<Team> artTeam;
 
     public ArrayList<Team> getTechTeam() {
         return techTeam;
+    }
+    public ArrayList<Team> getArtTeam() {
+        return artTeam;
     }
 
     public void setTechTeam(ArrayList<Team> techTeam) {
@@ -61,12 +65,14 @@ public class TeamResponse implements Parcelable {
         dest.writeTypedList(this.techTeam);
         dest.writeTypedList(this.campTeam);
         dest.writeTypedList(this.logisticsTeam);
+        dest.writeTypedList(this.artTeam);
     }
 
     protected TeamResponse(Parcel in) {
         this.techTeam = in.createTypedArrayList(Team.CREATOR);
         this.campTeam = in.createTypedArrayList(Team.CREATOR);
         this.logisticsTeam = in.createTypedArrayList(Team.CREATOR);
+        this.artTeam=in.createTypedArrayList(Team.CREATOR);
     }
 
     public static final Creator<TeamResponse> CREATOR = new Creator<TeamResponse>() {

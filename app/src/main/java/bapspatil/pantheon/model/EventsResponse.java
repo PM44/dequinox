@@ -14,6 +14,7 @@ import java.util.ArrayList;
 public class EventsResponse implements Parcelable {
     @SerializedName("day_one") private ArrayList<Event> dayOneEvents;
     @SerializedName("day_two") private ArrayList<Event> dayTwoEvents;
+    @SerializedName("day_three") private ArrayList<Event> dayThreeEvents;
 
     public ArrayList<Event> getDayOneEvents() {
         return dayOneEvents;
@@ -25,6 +26,10 @@ public class EventsResponse implements Parcelable {
 
     public ArrayList<Event> getDayTwoEvents() {
         return dayTwoEvents;
+    }
+
+    public ArrayList<Event> getDayThreeEvents() {
+        return dayThreeEvents;
     }
 
     public void setDayTwoEvents(ArrayList<Event> dayTwoEvents) {
@@ -50,11 +55,13 @@ public class EventsResponse implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeTypedList(this.dayOneEvents);
         dest.writeTypedList(this.dayTwoEvents);
+        dest.writeTypedList(this.dayThreeEvents);
     }
 
     protected EventsResponse(Parcel in) {
         this.dayOneEvents = in.createTypedArrayList(Event.CREATOR);
         this.dayTwoEvents = in.createTypedArrayList(Event.CREATOR);
+        this.dayThreeEvents = in.createTypedArrayList(Event.CREATOR);
     }
 
     public static final Creator<EventsResponse> CREATOR = new Creator<EventsResponse>() {

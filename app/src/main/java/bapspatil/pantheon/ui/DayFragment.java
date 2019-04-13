@@ -133,6 +133,29 @@ public class DayFragment extends Fragment {
                     }
                 });
                 break;
+            case 2:
+                eventsResponseCall.enqueue(new Callback<EventsResponse>() {
+                    @Override
+                    public void onResponse(Call<EventsResponse> call, Response<EventsResponse> response) {
+                        if (response.body() != null) {
+                            eventsList.addAll(response.body().getDayThreeEvents());
+                            eventsAdapter.notifyDataSetChanged();
+                            progressBar.setVisibility(View.GONE);
+                            eventsRecyclerView.setVisibility(View.VISIBLE);
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<EventsResponse> call, Throwable t) {
+                        CookieBar.build(getActivity())
+                                .setTitle("Network problem, bruh!")
+                                .setMessage("Make sure you're connected to the Internet, and launch the app again.")
+                                .setDuration(7000)
+                                .show();
+                        progressBar.setVisibility(View.GONE);
+                    }
+                });
+                break;
         }
     }
 }
