@@ -1,70 +1,112 @@
 {
     "day_one": [
         {
-            "time": "10:00 AM",
-            "title": "Cook Off!",
-            "body": "There will two rounds within each matchup; a savory round and a sweet round. The cooking competitions continue until one winner is identified.",
-            "location": "Admin Block, Room 203",
-            "maxMembers": "2",
-            "contact": "9999999999"
+            "time": "1:00 PM",
+            "title": "Dumbshidas!",
+            "body": "There will two rounds in first you will have to act on the the movie given in the chit.In second you will be given one advertisement tag line.",
+            "location": "LT2",
+            "maxMembers": "4",
+            "contact": "8889526852"
         },
         {
-            "time": "11:00 AM",
-            "title": "Hula Hoop Circle",
-            "body": "Have everyone form a circle and hold hands and put a hula hoop on the shoulder of one of the people. The goal of the activity is to get the hoop around all the members of the circle dropping hands.",
-            "location": "Admin Block, Room 102",
-            "maxMembers": "2",
-            "contact": "9999999999"
-        },
-        {
-            "time": "12:00 PM",
-            "title": "Prank Wars",
-            "body": "The pranks should be fun and harmless, but brew a sense of friendly mischief and competition.",
-            "location": "Mech Block, Room 042",
+            "time": "02:00 PM",
+            "title": "Dance Face off",
+            "body": "You have to dance on any random song,Two people will face off with each other",
+            "location": "Juke Box",
             "maxMembers": "1",
-            "contact": "9999999999"
+            "contact": "7489625885"
         },
         {
-            "time": "01:00 PM",
-            "title": "The 80s Dance Off",
-            "body": "A number of dancers compete against each other until a winner is declared, the 1980s style.",
-            "location": "Stage-A Area",
+            "time": "04:00 PM",
+            "title": "Lock Up",
+            "body": "One male and one female will be tied with hands of different year and the one who will survive till end will win. ",
+            "location": "Juke Box",
+            "maxMembers": "1",
+            "contact": "8962546985"
+        },
+        {
+            "time": "05:00 PM",
+            "title": "Treasure Hunt",
+            "body": "Team will be provided with a hint and have to find the treasure.",
+            "location": "LT1",
             "maxMembers": "3",
-            "contact": "9999999999"
+            "contact": "9897562453"
+        },
+        {
+            "time": "09:00 PM",
+            "title": "Rock Band",
+            "body": "Team will have to play bands and the best team will win.",
+            "location": "In front of hostel No 22",
+            "maxMembers": "5"
+            "contact": "9893964585"
         }
     ],
     "day_two": [
         {
-            "time": "10:30 AM",
-            "title": "The Bridge Challenge",
-            "body": "Each team will create a small bridge that can connect two books placed two feet apart. The team with the bridge that can hold the most weight will be crowned the winner.",
-            "location": "Stage-B Area",
+            "time": "11:30 AM",
+            "title": "Rangoli",
+            "body": "Each team will create a small rangoli in 1 hour the best rangoli will win.",
+            "location": "In front of LT1",
             "maxMembers": "4",
-            "contact": "8888888888"
+            "contact": "6569874523"
         },
+        {
+            "time": "1:30 PM",
+            "title": "Street Play",
+            "body": "Each team has to perform a street play(NUkkad Natak) with a strong message,Team has to arrange props of there own.",
+            "location": "Juke Box",
+            "maxMembers": "15",
+            "contact": "9569859875"
+        },
+        {
+            "time": "4:30 PM",
+            "title": "Drama Audition",
+            "body": "There will be audition for drama and finally two teams will be selected to perform in traditional night.",
+            "location": "MPH",
+            "maxMembers": "15",
+            "contact": "88884896585"
+        },
+        {
+             "time": "8:30 PM",
+            "title": "Traditional Night",
+            "body": "All have to wear Traditional dresses,And there will be many performances like Drama,Singing, Danceing etc.",
+            "location": "MPH",
+            "maxMembers": "No size",
+            "contact": "88884896585"
+        }
+    ],
+    "day_three": [
         {
             "time": "11:30 AM",
-            "title": "Who's Baby Is That?",
-            "body": "Have everyone bring in a baby picture of themselves. Hold a vote seeing if people can correctly match the pictures to their respective persons.",
-            "location": "Art Room",
-            "maxMembers": "1",
-            "contact": "8888888888"
-        },
-        {
-            "time": "12:30 PM",
-            "title": "Scavenger Hunt",
-            "body": "Clues all around the venue. The first team to find all clues and finish will be the winner.",
-            "location": "Exhibit Area",
-            "maxMembers": "4",
-            "contact": "8888888888"
-        },
-        {
-            "time": "01:30 PM",
-            "title": "Trivia Time!",
-            "body": "Each team will have the opportunity to win a point if they are the first to correctly answer a question. First to 10 points wins. 3 rounds.",
-            "location": "Room 105",
+            "title": "Masterchef",
+            "body": "Each team will bring one coocked item of there own,In second round they have to coock with the given ingredients.",
+            "location": "near Nehru Plaza",
             "maxMembers": "3",
-            "contact": "8888888888"
+            "contact": "6569874523"
+        },
+        {
+            "time": "1:30 PM",
+            "title": "Spell Bee",
+            "body": "Each person has to spell the give word by judges,and each word is eliminating.",
+            "location": "LT2",
+            "maxMembers": "1",
+            "contact": "9569859875"
+        },
+        {
+            "time": "4:30 PM",
+            "title": "Tambola",
+            "body": "TYou can win exciting prizes here, all money collected in return of ticket will be donated.",
+            "location": "Juke Box",
+            "maxMembers": "1",
+            "contact": "88884896585"
+        },
+        {
+             "time": "8:30 PM",
+            "title": "Cultural Night",
+            "body": "All have to wear western dresses,And there will be many performances by Sharukh Khan and Anushka Sharma",
+            "location": "Cricket Ground",
+            "maxMembers": "No size",
+            "contact": "9897943025"
         }
     ]
 }
