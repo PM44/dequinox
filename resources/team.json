@@ -1,5 +1,5 @@
 {
-    "tech": [
+    "Literary Wing": [
         {
             "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/15.png",
             "name" :"Guillermo Raffaele"
@@ -21,7 +21,7 @@
             "name" :"Will Feldman"
         }
     ],
-    "camp": [
+    "Cultural Wing": [
         {
             "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/5.png",
             "name" :"Jamie Alexa"
@@ -43,7 +43,29 @@
             "name" :"Kaya Pryor"
         }
     ],
-    "logi": [
+    "Media Wing": [
+        {
+            "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/10.png",
+            "name" :"Jordi Moyer"
+        },
+        {
+            "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/11.png",
+            "name" :"Jeshua Stout"
+        },
+        {
+            "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/12.png",
+            "name" :"Rene Wells"
+        },
+        {
+            "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/13.png",
+            "name" :"Phoenix Walker"
+        },
+        {
+            "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/14.png",
+            "name" :"Andi Lane"
+        }
+    ],
+    "Art & Event Wing": [
         {
             "avatar": "https://raw.githubusercontent.com/PM44/dequinox/master/resources/images/10.png",
             "name" :"Jordi Moyer"
