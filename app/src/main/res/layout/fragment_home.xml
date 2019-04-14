@@ -44,7 +44,7 @@
                     android:layout_centerInParent="true"
                     android:fontFamily="@font/levi"
                     android:gravity="center"
-                    android:text="D\'EQUINOX"
+                    android:text="Spyn PRO"
                     android:textSize="48sp"/>
             </RelativeLayout>
         </developer.shivam.crescento.CrescentoContainer>
@@ -52,7 +52,7 @@
         <TextView
             style="@style/ContextTextViewStyle"
             android:fontFamily="@font/titillium_bold"
-            android:text="Welcome to the official\nD\'EQUINOX companion app!"
+            android:text="Welcome to the official\nSpyn PRO companion app!"
             android:textSize="22sp"
             android:textStyle="bold"/>
 
@@ -148,7 +148,7 @@
             android:layout_marginTop="8dp"
             android:fontFamily="@font/titillium_bold"
             android:gravity="left"
-            android:text="Here's a throwback to last year's D\'EQUINOX..."
+            android:text="Here's a throwback to last year's Spyn PRO..."
             android:textSize="18sp"
             android:textStyle="bold"/>
 
