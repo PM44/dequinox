@@ -177,7 +177,7 @@
                         android:layout_marginTop="64dp"
                         android:fontFamily="@font/titillium_bold"
                         android:gravity="center"
-                        android:text="Aditi Shrivastava"
+                        android:text="Aditi Srivastava"
                         android:layout_marginBottom="16dp"
                         android:textColor="@color/black"/>
 
